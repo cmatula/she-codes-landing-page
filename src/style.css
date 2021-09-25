@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    178.6deg,
+    rgb(20, 36, 50) 11.8%,
+    rgb(124, 143, 161) 83.8%
+  );
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid #142d4c;
+  color: #142d4c;
+  font-size: 52px;
+  font-weight: normal;
+  padding: 35px 30px;
+  letter-spacing: 15px;
+  margin-bottom: 0;
+}
+h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #385170;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 28px;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
+  margin: 30px auto;
+  font-size: 20px;
+}
+span {
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+li {
+  display: inline;
+  color: #ffffff;
+  font-size: 26px;
+  padding: 0 50px;
+}
+
+button {
+  color: #142d4c;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 15px 20px;
+  display: block;
+  margin: 0px auto 40px auto;
+  transition: all 200ms ease-in-out;
+  box-shadow: 3px 5px 5px rgba(196, 191, 191, 0.945);
+}
+
+button:hover {
+  color: white;
+  background: #385170;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.menu {
+  display: inline-block;
+  color: #ffffff;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.menu-type:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lofoten-button {
+  display: block;
+  margin: 40px auto;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 25px;
+  border-radius: 25px;
+  color: #142d4c;
+  border: 2px solid #142d4c;
+  transition: all 200ms ease-in-out;
+  box-shadow: 3px 5px 5px rgba(196, 191, 191, 0.945);
+}
+.lofoten-button:hover {
+  color: white;
+  background: #385170;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.lofoten-info {
+  display: block;
+  margin: 40px auto;
+  background-color: #ececec;
+  max-width: 700px;
+  padding: 10px 100px;
+  border-radius: 30px;
+}
+.lofoten-photo {
+  display: block;
+  margin: 60px auto;
+  border-radius: 30px;
+}
+.footer {
+  text-align: center;
+  letter-spacing: 3;
+}
